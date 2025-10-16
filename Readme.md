@@ -2,7 +2,7 @@ Accessible Profile Card Component
 A fully accessible, responsive profile card built with semantic HTML, modern CSS, and vanilla JavaScript. This project demonstrates best practices in web accessibility, responsive design, and test-driven development.
 
 🌟 Live Demo
-View Live Demo ← Replace with your Netlify/GitHub Pages URL
+View Live Demo  https://sucre0.netlify.app/
 📋 Table of Contents
 
 Features
