@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <article class="profile-card" data-testid="test-profile-card">
+        <div class="card-content">
+            <header class="card-header">
+                <figure class="avatar-container">
+                    <img 
+                        src="https://unsplash.com/photos/iFgRcqHznqg/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzYwNjEwMTQ3fA&force=true" 
+                        alt="Profile picture of Alex Johnson"
+                        class="avatar"
+                        data-testid="test-user-avatar"
+                    >
+                </figure>
+                
+                <div class="header-text">
+                    <h1 data-testid="test-user-name">Alex Johnson</h1>
+                    <div class="time-display" data-testid="test-user-time" aria-label="Current timestamp in milliseconds"></div>
+                </div>
+            </header>
+
+            <p class="bio" data-testid="test-user-bio">
+                Full-stack developer and open-source enthusiast with a passion for building accessible, 
+                user-friendly web applications. I love solving complex problems and creating beautiful 
+                interfaces that everyone can use.
+            </p>
+
+            <nav class="social-links" data-testid="test-user-social-links" aria-label="Social media links">
+                <h2>Connect with me</h2>
+                <ul class="social-list">
+                    <li>
+                        <a 
+                            href="https://twitter.com/alexjohnson" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            data-testid="test-user-social-twitter"
+                        >
+                            <span aria-hidden="true">🐦</span>
+                            Twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a 
+                            href="https://github.com/alexjohnson" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            data-testid="test-user-social-github"
+                        >
+                            <span aria-hidden="true">💻</span>
+                            GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a 
+                            href="https://linkedin.com/in/alexjohnson" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            data-testid="test-user-social-linkedin"
+                        >
+                            <span aria-hidden="true">💼</span>
+                            LinkedIn
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="info-sections">
+                <section class="info-section hobbies-section">
+                    <h2>
+                        <span aria-hidden="true">✨</span>
+                        Hobbies & Interests
+                    </h2>
+                    <ul class="info-list" data-testid="test-user-hobbies">
+                        <li>Photography and drone videography</li>
+                        <li>Rock climbing and hiking</li>
+                        <li>Playing guitar and making music</li>
+                        <li>Reading sci-fi novels</li>
+                        <li>Experimenting with new recipes</li>
+                    </ul>
+                </section>
+
+                <section class="info-section dislikes-section">
+                    <h2>
+                        <span aria-hidden="true">⚠️</span>
+                        Dislikes
+                    </h2>
+                    <ul class="info-list" data-testid="test-user-dislikes">
+                        <li>Inaccessible websites</li>
+                        <li>Poor documentation</li>
+                        <li>Unnecessary meetings</li>
+                        <li>Code without comments</li>
+                        <li>Loud chewing sounds</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </article>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
